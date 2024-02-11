@@ -11,7 +11,7 @@ const SignUp = () => {
   return ( 
     <>
 
-    <Outlet/>
+    
     <div className="loginDiv">
 
         <h3 className='heading'>Sign Up Here</h3>
@@ -19,7 +19,7 @@ const SignUp = () => {
         <Box
       component="form"
       sx={{
-        '& > :not(style)': { m: 1, width: '45ch' },
+        '& > :not(style)': { m: 1, width: '41ch' },
       }}
       noValidate
       autoComplete="off"
@@ -39,7 +39,7 @@ const SignUp = () => {
       <br /><br />
       <TextField
           id="Rpassword"
-          label="Password"
+          label="Type Password Again"
           type="password"
           name='Rpassword'
           autoComplete="current-password"

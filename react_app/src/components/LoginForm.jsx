@@ -12,15 +12,14 @@ const LoginForm = () => {
   return (
     <>
 
-    <Outlet/>
-    <div className="loginDiv">
+    <div className="loginDiv" >
 
         <h3 className='heading'>Sign in to your account</h3>
         <br />
         <Box
       component="form"
       sx={{
-        '& > :not(style)': { m: 1, width: '45ch' },
+        '& > :not(style)': { m: 1, width: '41ch' },
       }}
       noValidate
       autoComplete="off"
