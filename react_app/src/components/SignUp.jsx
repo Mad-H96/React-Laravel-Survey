@@ -1,5 +1,5 @@
 import React from 'react'
-import './login.css'
+import './SignUp.css'
 import { Link, Outlet } from 'react-router-dom'
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
@@ -7,15 +7,14 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 
 
-
-const LoginForm = () => {
-  return (
+const SignUp = () => {
+  return ( 
     <>
 
     <Outlet/>
     <div className="loginDiv">
 
-        <h3 className='heading'>Sign in to your account</h3>
+        <h3 className='heading'>Sign Up Here</h3>
         <br />
         <Box
       component="form"
@@ -25,6 +24,9 @@ const LoginForm = () => {
       noValidate
       autoComplete="off"
       >
+
+      <TextField id="name" label="Your Name" variant="outlined" name='name' />
+      <br />
       <TextField id="email" label="Your Email" variant="outlined" name='email' />
       <br />
       <TextField
@@ -35,12 +37,18 @@ const LoginForm = () => {
           autoComplete="current-password"
         />
       <br /><br />
-      <Link className='links' to={`#`}>Forgot Your Password?</Link>
-      <br />
+      <TextField
+          id="Rpassword"
+          label="Password"
+          type="password"
+          name='Rpassword'
+          autoComplete="current-password"
+        />
+  
       <br />
       <Stack direction="row">
      
-      <Button variant="contained">Sign In</Button>
+      <Button variant="contained">Sign Up</Button>
    
       </Stack>
    
@@ -50,8 +58,9 @@ const LoginForm = () => {
     
 </div>    
 
+
     </>
   )
 }
 
-export default LoginForm
+export default SignUp
