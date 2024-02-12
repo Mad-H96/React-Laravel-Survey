@@ -14,7 +14,7 @@ const LoginForm = () => {
 
     <div className="loginDiv" >
 
-        <h3 className='heading'>Sign in to your account</h3>
+        <h3 className='heading2'>Sign in to your account</h3>
         <br />
         <Box
       component="form"

@@ -14,7 +14,7 @@ const SignUp = () => {
     
     <div className="loginDiv">
 
-        <h3 className='heading'>Sign Up Here</h3>
+        <h3 className='heading2'>Sign Up Here</h3>
         <br />
         <Box
       component="form"
@@ -36,7 +36,7 @@ const SignUp = () => {
           name='password'
           autoComplete="current-password"
         />
-      <br /><br />
+      <br />
       <TextField
           id="Rpassword"
           label="Type Password Again"

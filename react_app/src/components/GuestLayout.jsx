@@ -5,7 +5,10 @@ const GuestLayout = () => {
   return (
 
     <>
+
+    
   <Outlet/>
+
     </>
     
   )
