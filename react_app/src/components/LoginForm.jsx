@@ -36,6 +36,8 @@ const LoginForm = () => {
       <br /><br />
       <Link className='links' to={`#`}>Forgot Your Password?</Link>
       <br />
+      <Link className='links' to={`/signup`}>Sign Up Here</Link>
+      <br />
       <br />
       <Stack direction="row">
      
