@@ -13,7 +13,7 @@ const StateContext = createContext({
 const tmpSurveys = [
     {
       "id": 1,
-      "image_url": "https:\/\/api.yoursurveys.xyz\/images\/vJutXzn02CDwdOyh.png",
+      "image_url": "https://images.pexels.com/photos/18473907/pexels-photo-18473907/free-photo-of-sunlight-in-park-in-summer.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title": "TheCodeholic YouTube channel",
       "slug": "thecodeholic-youtube-channel",
       "status": true,
@@ -154,7 +154,7 @@ const tmpSurveys = [
     },
     {
       "id": 2,
-      "image_url": "https:\/\/api.yoursurveys.xyz\/images\/gjIHElz4aKrL0nT0.png",
+      "image_url": "https://images.pexels.com/photos/20135107/pexels-photo-20135107/free-photo-of-mueller-hut-adventure.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title": "React",
       "slug": "react",
       "status": true,
@@ -293,7 +293,7 @@ const tmpSurveys = [
     },
     {
       "id": 3,
-      "image_url": "https:\/\/api.yoursurveys.xyz\/images\/WPfzo0g66huUYYwR.png",
+      "image_url": "https://images.pexels.com/photos/15820908/pexels-photo-15820908/free-photo-of-palm-trees-on-sea-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title": "Laravel 9",
       "slug": "laravel-9",
       "status": true,
