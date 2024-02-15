@@ -5,8 +5,8 @@ const Dashboard = () => {
   return (
     <>
     <div className="main">
-      <h1 className='heading'>Dashboard</h1>
-    <br /><br />
+      <h1 className='text-4xl heading'>Dashboard</h1>
+    <br /><br /><br />
     <hr />
 
 

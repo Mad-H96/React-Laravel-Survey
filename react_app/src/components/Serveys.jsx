@@ -11,11 +11,12 @@ const Serveys = () => {
   return (
     <>
     <div className="main">
-    <h1 className='heading'>Surveys</h1>
-  <br /><br />
+    <h1 className='text-4xl heading'>Surveys</h1>
+  <br /><br /> <br />  
   <hr />
+<div className=''>
 
-    <div className="">
+    <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 ">
 
     {surveys.map(survey=>(
 
@@ -23,7 +24,7 @@ const Serveys = () => {
 
     ))}
   </div>
-  
+  </div>
   </div>
   </>
   )
