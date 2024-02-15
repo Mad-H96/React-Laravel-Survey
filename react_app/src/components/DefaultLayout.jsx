@@ -31,7 +31,7 @@ const DefaultLayout = () => {
           <Nav className="me-auto">
 
             <Nav.Link href="/" className="link">Dashboard</Nav.Link>
-            <Nav.Link href="/servey"  className="link">Surveys</Nav.Link>
+            <Nav.Link href="/survey"  className="link">Surveys</Nav.Link>
             <Nav.Link href="#"  className="link"><LogoutIcon/></Nav.Link>
             
           </Nav>
